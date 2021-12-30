@@ -1,6 +1,0 @@
-framework module Pods_TodoList_SwiftUI {
-  umbrella header "Pods-TodoList-SwiftUI-umbrella.h"
-
-  export *
-  module * { export * }
-}
