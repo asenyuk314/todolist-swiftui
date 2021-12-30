@@ -11,7 +11,7 @@
 		113586DC277CBF1700BDFFE5 /* ItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113586DB277CBF1700BDFFE5 /* ItemsView.swift */; };
 		113586DE277DC65900BDFFE5 /* ItemsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113586DD277DC65800BDFFE5 /* ItemsListView.swift */; };
 		11F179AB277CB029003AFB45 /* TodoList_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F179AA277CB029003AFB45 /* TodoList_SwiftUIApp.swift */; };
-		11F179AD277CB029003AFB45 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F179AC277CB029003AFB45 /* ContentView.swift */; };
+		11F179AD277CB029003AFB45 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F179AC277CB029003AFB45 /* CategoriesView.swift */; };
 		11F179AF277CB02B003AFB45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11F179AE277CB02B003AFB45 /* Assets.xcassets */; };
 		11F179B2277CB02B003AFB45 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11F179B1277CB02B003AFB45 /* Preview Assets.xcassets */; };
 		11F179B4277CB02B003AFB45 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F179B3277CB02B003AFB45 /* Persistence.swift */; };
@@ -25,7 +25,7 @@
 		113586DD277DC65800BDFFE5 /* ItemsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsListView.swift; sourceTree = "<group>"; };
 		11F179A7277CB029003AFB45 /* TodoList-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TodoList-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11F179AA277CB029003AFB45 /* TodoList_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList_SwiftUIApp.swift; sourceTree = "<group>"; };
-		11F179AC277CB029003AFB45 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		11F179AC277CB029003AFB45 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
 		11F179AE277CB02B003AFB45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11F179B1277CB02B003AFB45 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		11F179B3277CB02B003AFB45 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 		113586D8277CB30D00BDFFE5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				11F179AC277CB029003AFB45 /* ContentView.swift */,
+				11F179AC277CB029003AFB45 /* CategoriesView.swift */,
 				113586D9277CB33400BDFFE5 /* AlertView.swift */,
 				113586DB277CBF1700BDFFE5 /* ItemsView.swift */,
 				113586DD277DC65800BDFFE5 /* ItemsListView.swift */,
@@ -241,7 +241,7 @@
 				113586DE277DC65900BDFFE5 /* ItemsListView.swift in Sources */,
 				11F179B4277CB02B003AFB45 /* Persistence.swift in Sources */,
 				11F179B7277CB02B003AFB45 /* TodoList_SwiftUI.xcdatamodeld in Sources */,
-				11F179AD277CB029003AFB45 /* ContentView.swift in Sources */,
+				11F179AD277CB029003AFB45 /* CategoriesView.swift in Sources */,
 				11F179AB277CB029003AFB45 /* TodoList_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -13,7 +13,7 @@ struct TodoList_SwiftUIApp: App {
   
   var body: some Scene {
     WindowGroup {
-      ContentView()
+      CategoriesView()
         .environment(\.managedObjectContext, persistenceController.container.viewContext)
     }
   }

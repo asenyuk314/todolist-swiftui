@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  CategoriesView.swift
 //  TodoList-SwiftUI
 //
 //  Created by Александр Сенюк on 29.12.2021.
@@ -9,7 +9,7 @@ import SwiftUI
 import CoreData
 import ChameleonFramework
 
-struct ContentView: View {
+struct CategoriesView: View {
   @Environment(\.managedObjectContext) private var viewContext
   
   @FetchRequest(
@@ -93,7 +93,7 @@ struct ContentView: View {
   }
 }
 
-extension ContentView: AlertDelegate{
+extension CategoriesView: AlertDelegate{
   func onAlertSaveHandler() {
     addCategory()
     toggleAlert()
@@ -102,6 +102,6 @@ extension ContentView: AlertDelegate{
 
 struct ContentView_Previews: PreviewProvider {
   static var previews: some View {
-    ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+    CategoriesView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
   }
 }
